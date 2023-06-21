@@ -1,0 +1,1106 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16280 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/_Github/ARProject/ARProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61537
+Successfully changed project path to: D:/_Github/ARProject/ARProject
+D:/_Github/ARProject/ARProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 123.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/_Github/ARProject/ARProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011713 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015424 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\_Github\ARProject\ARProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\_Github\ARProject\ARProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Extension already registered for type UnityEngine.Playables.PlayableAsset.
+Parameter name: type
+  at UnityEditor.NativeFormatImporterUtility.RegisterExtensionForType (System.Type type, System.String preferredExtension, System.String[] otherExtensions) [0x00057] in <99feab6f3db6407493924fe4a179a95b>:0 
+  at UnityEditor.NativeFormatImporterUtility..cctor () [0x00051] in <99feab6f3db6407493924fe4a179a95b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.NativeFormatImporterUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 296 unused Assets / (142.5 KB). Loaded Objects now: 4314.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 2.940400 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.337200 ms MarkObjects: 2.094900 ms  DeleteObjects: 0.180600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33895.895422 seconds.
+  path: Assets/ARProject/Assets/AR Default Point Cloud.prefab
+  artifactKey: Guid(728dc037c658da849922a3d546c8c16e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/AR Default Point Cloud.prefab using Guid(728dc037c658da849922a3d546c8c16e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '546af929e1149feca70d0cf1f1c64e75') in 0.226952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ProjectSettings/MemorySettings.asset
+  artifactKey: Guid(d16d592bc330b6e4ca7117ad0d90e6b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/MemorySettings.asset using Guid(d16d592bc330b6e4ca7117ad0d90e6b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f82760e87b1e88b794704ae930c7b099') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARProject/Packages/packages-lock.json
+  artifactKey: Guid(2421be8895409074b9c93dbe5f19f049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Packages/packages-lock.json using Guid(2421be8895409074b9c93dbe5f19f049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e170256a6b1372d9415ed97ffcd9bb74') in 0.030478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ARProject/ProjectSettings/TagManager.asset
+  artifactKey: Guid(690d79f86f7cbe94aab614dd05d9fb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/TagManager.asset using Guid(690d79f86f7cbe94aab614dd05d9fb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bb8b2f76497543fac1fd329d5f48b18') in 0.010925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ARProject/ProjectSettings/AudioManager.asset
+  artifactKey: Guid(a5dbdac28eeaf7f42a7aac557d27d65c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/AudioManager.asset using Guid(a5dbdac28eeaf7f42a7aac557d27d65c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '295aa128663e2ee3fff25714a9fa530f') in 0.009987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARProject/ARProject.sln
+  artifactKey: Guid(c67729087034f994f885c8a815fc45e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ARProject.sln using Guid(c67729087034f994f885c8a815fc45e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2396a4075d07152a2bda335cf49b669') in 0.019717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics12.cpp
+  artifactKey: Guid(3b4c41ef05855034caec285c5a9e7827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics12.cpp using Guid(3b4c41ef05855034caec285c5a9e7827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64d27dbc91d55dadd744257b2e3eaffd') in 0.014652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARProject/Assets/ObjectonPlane.cs
+  artifactKey: Guid(4fc448818ea5edb43a26d7c4a2ed2416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/ObjectonPlane.cs using Guid(4fc448818ea5edb43a26d7c4a2ed2416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7aaf8bc0444421f4e80afdb04065d638') in 0.019006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+  artifactKey: Guid(e7cadc83378936b4daff445b8391441e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log using Guid(e7cadc83378936b4daff445b8391441e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad4d9e0fc318e3a5f256ffc6cadf755e') in 0.011375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARProject/ProjectSettings/XRPackageSettings.asset
+  artifactKey: Guid(45e236d625126db44b9569646c9d538b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/XRPackageSettings.asset using Guid(45e236d625126db44b9569646c9d538b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Failed to load 'D:/_Github/ARProject/ARProject/Assets/ARProject/ProjectSettings/XRPackageSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[ line 0]
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f17d2f4a3a1f57beb4f1cfdf51f05e62') in 0.012433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics4.cpp
+  artifactKey: Guid(a2ea8dc0f8b24b0409673c79c6813a2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics4.cpp using Guid(a2ea8dc0f8b24b0409673c79c6813a2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8211b48198a731e28f34a4931be02775') in 0.007780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInvokerTable.cpp
+  artifactKey: Guid(897bbb19998e07249b7cd1e557a77374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInvokerTable.cpp using Guid(897bbb19998e07249b7cd1e557a77374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4711209f498b8cdc7e694097d335c38a') in 0.008056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ARProject/ProjectSettings/ProjectVersion.txt
+  artifactKey: Guid(60b6f11dba3f5734fb1c01db10ca61f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/ProjectVersion.txt using Guid(60b6f11dba3f5734fb1c01db10ca61f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '477063eb40e286a3852affa9390a0e97') in 0.019535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/Logs/AssetImportWorker0-prev.log
+  artifactKey: Guid(25975d68be3571a428e2a3a9cec97a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Logs/AssetImportWorker0-prev.log using Guid(25975d68be3571a428e2a3a9cec97a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37b7b8cfa6ca9af25d6ae6554f71ff8a') in 0.006402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
+  artifactKey: Guid(0a39100a2d0f31c4ebc38044be9af365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c using Guid(0a39100a2d0f31c4ebc38044be9af365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f83e34b87bf16cee5ee8cbc4b6b585ed') in 0.010998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib16.cpp
+  artifactKey: Guid(983fe6b2718ba4047ac85160706f1f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib16.cpp using Guid(983fe6b2718ba4047ac85160706f1f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb5153d0bd41568dfb1b4cf47c1c55e4') in 0.007683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARProject/ProjectSettings/ClusterInputManager.asset
+  artifactKey: Guid(c1a68d731bc75264e95481927cd701ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/ClusterInputManager.asset using Guid(c1a68d731bc75264e95481927cd701ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fac580766e8c49f818c1de2700b37ba') in 0.007910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/Logs/AssetImportWorker2-prev.log
+  artifactKey: Guid(4e427089d850cc54abd4e15f45a75ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Logs/AssetImportWorker2-prev.log using Guid(4e427089d850cc54abd4e15f45a75ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '950f2056d2d09890a371b7e54135db81') in 0.006419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARProject/ProjectSettings/UnityConnectSettings.asset
+  artifactKey: Guid(4aa3e19fa2f53af4e93dc2a0d100de07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/UnityConnectSettings.asset using Guid(4aa3e19fa2f53af4e93dc2a0d100de07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4361eecd8c05eade643459de0666f965') in 0.010587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics8.cpp
+  artifactKey: Guid(4d56256b8dfe84f4bbd8c2e5e46aacc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics8.cpp using Guid(4d56256b8dfe84f4bbd8c2e5e46aacc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '557c77e1545721a2ae44ce482ed0ac25') in 0.008244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ProjectSettings/EditorBuildSettings.asset
+  artifactKey: Guid(78027fb2691c3c44080eba6a80ee883c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/EditorBuildSettings.asset using Guid(78027fb2691c3c44080eba6a80ee883c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84cf0d8ed2c6e6f77883dbcffe14575c') in 0.009961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARProject/ProjectSettings/EditorSettings.asset
+  artifactKey: Guid(0cdb94e59a7c21c40a527f4871bd26aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/EditorSettings.asset using Guid(0cdb94e59a7c21c40a527f4871bd26aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30389dbb673f75c061e6a2c4233dc3da') in 0.010886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ObjectonPlane.cs
+  artifactKey: Guid(c70f77567e9929f49be69ad97f341c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ObjectonPlane.cs using Guid(c70f77567e9929f49be69ad97f341c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd57f533b8128b3f7881aac750eb2d22') in 0.007899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+  artifactKey: Guid(cb7ae5329feba0945afd10258d9f1acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCalculateTypeValues.cpp using Guid(cb7ae5329feba0945afd10258d9f1acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a5e065436769e77615c800d7701f130') in 0.008588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ARProject/Logs/AssetImportWorker1-prev.log
+  artifactKey: Guid(7b7be35b752c8d24d844ce4c3441dc16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Logs/AssetImportWorker1-prev.log using Guid(7b7be35b752c8d24d844ce4c3441dc16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cf8607eb25823a1fc3ae2ba7e001644') in 0.005543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARProject/ProjectSettings/boot.config
+  artifactKey: Guid(b4f0cf79af5bb8b469ede0d679b7981c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ProjectSettings/boot.config using Guid(b4f0cf79af5bb8b469ede0d679b7981c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59e2fbdbb938e2e2c21b1d391d0b186e') in 0.015805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics1.cpp
+  artifactKey: Guid(630557d2d94060949b59b0c019a8412a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics1.cpp using Guid(630557d2d94060949b59b0c019a8412a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb393a275e80b8f94560597bd2000d23') in 0.007989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics9.cpp
+  artifactKey: Guid(e23473c207fa2064196b66f9f792d3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics9.cpp using Guid(e23473c207fa2064196b66f9f792d3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcf989b2ebe9c86428c4a9db1b396a0a') in 0.007646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp
+  artifactKey: Guid(9ddd6a97c958a3a44b821b53e13f1a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp using Guid(9ddd6a97c958a3a44b821b53e13f1a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1d5203de5b9b910978720c7f0e1330f') in 0.007326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp
+  artifactKey: Guid(f6d34aad4b752fa47b5bc9721fe39796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp using Guid(f6d34aad4b752fa47b5bc9721fe39796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '467e0bf9cad38ed630c3952ae982f456') in 0.007622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+  artifactKey: Guid(8339d6a2e6607b445ae65653f6eb6ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp using Guid(8339d6a2e6607b445ae65653f6eb6ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56d82eb1430ffd74f83de9cbfe0fbca8') in 0.008752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp
+  artifactKey: Guid(c41a8cd8853b04848a4020e9f321f030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp using Guid(c41a8cd8853b04848a4020e9f321f030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c993f922f5dab945f627268fd847e314') in 0.006897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib5.cpp
+  artifactKey: Guid(ac8f2292f6f24924f84ff47857353d98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib5.cpp using Guid(ac8f2292f6f24924f84ff47857353d98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47851d7f7af28b420a750c8937f38b64') in 0.007818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.909611 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib9.cpp
+  artifactKey: Guid(ed8c6b5dee9169349b95c87466812507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib9.cpp using Guid(ed8c6b5dee9169349b95c87466812507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ede486c1b7c3abdc50aa36f253232c43') in 0.008859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib_CodeGen.c
+  artifactKey: Guid(958db56ee821b6c4fb04bb86d08bbb10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib_CodeGen.c using Guid(958db56ee821b6c4fb04bb86d08bbb10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7efeb2e3d76189cc8b1db8a64dd6eb46') in 0.007913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System3.cpp
+  artifactKey: Guid(d0a679cbb9c9d7a42aa603b88b194bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System3.cpp using Guid(d0a679cbb9c9d7a42aa603b88b194bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ad3c5a83da39a375437541d9e41950') in 0.007530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll
+  artifactKey: Guid(a8734f7722d03f54c8394c752fdc1bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/mscorlib.dll using Guid(a8734f7722d03f54c8394c752fdc1bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93bef6394e54486f1c73b17802b05747') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine_CodeGen.c
+  artifactKey: Guid(52e8174a64fcd704fb460fcd3afab4d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine_CodeGen.c using Guid(52e8174a64fcd704fb460fcd3afab4d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51e47f794634117c9d32d16e7c2ff621') in 0.008928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARCore_CodeGen.c
+  artifactKey: Guid(eea2d187e2ad3fb4d9abfbeb36b0617f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARCore_CodeGen.c using Guid(eea2d187e2ad3fb4d9abfbeb36b0617f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a8b749f36d622347d99c9b11747a2b0') in 0.007670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.Management_CodeGen.c
+  artifactKey: Guid(90def1310950fa3469fecf3180acc7f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.Management_CodeGen.c using Guid(90def1310950fa3469fecf3180acc7f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61e5ae45c6aaf627f916d7f4e81a2b57') in 0.008954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARSubsystems.dll
+  artifactKey: Guid(549d4c671cf6f814c8fb3abef7134081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARSubsystems.dll using Guid(549d4c671cf6f814c8fb3abef7134081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e4fe609135e18a46baa33b54c09f64b') in 0.014418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp
+  artifactKey: Guid(6b0e8925b8c7a2a4f9b7e66d75f5a1fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp using Guid(6b0e8925b8c7a2a4f9b7e66d75f5a1fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b51a2756ea867e6f572f832dd2c7f300') in 0.008047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
+  artifactKey: Guid(95d8905b37029df42aac412106c1d745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c using Guid(95d8905b37029df42aac412106c1d745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53a1413bfc71d2bf7e4d52e9cf3d0aee') in 0.008017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll
+  artifactKey: Guid(9aa969f0dd640d541a78f745d8be743e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.dll using Guid(9aa969f0dd640d541a78f745d8be743e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a3b83e1c6a09293f424f39db1bda259') in 0.011262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll
+  artifactKey: Guid(38e11a56531da5e479661ea3bb08e707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll using Guid(38e11a56531da5e479661ea3bb08e707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '740d6ca0bedcd7d0b46fd67a29854e59') in 0.008137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll
+  artifactKey: Guid(b09469f14f8bc2848918cda1a1e51a81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.dll using Guid(b09469f14f8bc2848918cda1a1e51a81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8bd3eef52bd16b9bf4c67bc528a9777') in 0.008560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+  artifactKey: Guid(e135d53ae205d3441997de17603502fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c using Guid(e135d53ae205d3441997de17603502fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eadbc10dc33d1eb723cc8ba8e1f01d93') in 0.007704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
+  artifactKey: Guid(97f111d289be3b2468bb62aaca53f1b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c using Guid(97f111d289be3b2468bb62aaca53f1b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8125c55eed1082beed3d40ddb3810203') in 0.008664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb
+  artifactKey: Guid(faa8c4c11c6f5a14eb540563e01d2119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.PhysicsModule.pdb using Guid(faa8c4c11c6f5a14eb540563e01d2119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '923809ca4c4ab91f05de9155164c6e16') in 0.006844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnresolvedVirtualCallStubs.cpp
+  artifactKey: Guid(8b83acc14cb3fc24baf70ed8323e7042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnresolvedVirtualCallStubs.cpp using Guid(8b83acc14cb3fc24baf70ed8323e7042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02f1c1769841f8a4eb276d277a4710e5') in 0.006777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+  artifactKey: Guid(a001018ca84034e4497cb2fd862c284d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c using Guid(a001018ca84034e4497cb2fd862c284d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95073a26821f772ab43f8e9335077a2c') in 0.006796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration_CodeGen.c
+  artifactKey: Guid(e3c14db063ef88244915c08c59c6cf6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Configuration_CodeGen.c using Guid(e3c14db063ef88244915c08c59c6cf6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '146f280109a380423ec517a047cabd71') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+  artifactKey: Guid(4e66fa4e39abc4b489db485e21a1563a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c using Guid(4e66fa4e39abc4b489db485e21a1563a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cd860fee643f1127b0e7da920f57408') in 0.007748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARFoundation.cpp
+  artifactKey: Guid(b9653c49f594df049a30e6b3b6f1326b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARFoundation.cpp using Guid(b9653c49f594df049a30e6b3b6f1326b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9a93aab77f50895df7fb5c296acaaa4') in 0.007035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARFoundation1.cpp
+  artifactKey: Guid(76da3aec698917948a6c3b8ad1d7af35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARFoundation1.cpp using Guid(76da3aec698917948a6c3b8ad1d7af35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a3a2c8aacaede1f626338d4499e5224') in 0.007321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll
+  artifactKey: Guid(f076675549a8363409ab8c62a88ea1dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.dll using Guid(f076675549a8363409ab8c62a88ea1dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7114d6d3ac3ee8ff9fcfd471db2e9380') in 0.006499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb
+  artifactKey: Guid(f89964027c9db0046ba32da0cedaf067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputLegacyModule.pdb using Guid(f89964027c9db0046ba32da0cedaf067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19340cbd377462b21b07886dc6a4be22') in 0.006456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb
+  artifactKey: Guid(5a248fdc3b67c624787742453db865cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.InputModule.pdb using Guid(5a248fdc3b67c624787742453db865cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d219dd2a508dc16a640e3db3795f7bd') in 0.005911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb
+  artifactKey: Guid(114def1ca60748149bc985dc16b6120e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AudioModule.pdb using Guid(114def1ca60748149bc985dc16b6120e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '872c74d2e8c4a531c57967e366945dbc') in 0.005818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARSubsystems.cpp
+  artifactKey: Guid(3737796e85b99d447a66b18c9af4192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARSubsystems.cpp using Guid(3737796e85b99d447a66b18c9af4192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45d4202b7e89751b9d2756001a946f00') in 0.006604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+  artifactKey: Guid(521f10562fd651346878f7efbfe9f287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c using Guid(521f10562fd651346878f7efbfe9f287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3be27ec085bfd0ee788889130c6643b3') in 0.008144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll
+  artifactKey: Guid(ffc565b98d4876645adaeeb7abcce631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll using Guid(ffc565b98d4876645adaeeb7abcce631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fb468f35a9773b8898b2c7b4964f1a3') in 0.006588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp
+  artifactKey: Guid(1a6ef789c1752cf47adc5e210e3885bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp using Guid(1a6ef789c1752cf47adc5e210e3885bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9486c889a24c91ed3ac31e0e89dda9e3') in 0.006986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb
+  artifactKey: Guid(a5122ea64aa75ec41b138dce800fbf0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.pdb using Guid(a5122ea64aa75ec41b138dce800fbf0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '359e4c45eed4f7c6f215ca0e0309a5ad') in 0.005067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
+  artifactKey: Guid(c8d82fa353815b74c8682ca4641cebd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp using Guid(c8d82fa353815b74c8682ca4641cebd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc91fdd522bd240f12710a4422c15c59') in 0.007148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll
+  artifactKey: Guid(d152d250930877446b43345fc7b5104d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.SharedInternalsModule.dll using Guid(d152d250930877446b43345fc7b5104d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d6fe6d1bf5454fe0e76ee4e21398686') in 0.006935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.954116 seconds.
+  path: Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json
+  artifactKey: Guid(a5a56fa76a158a54c89af5a3ef30c0ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityLinkerToEditorData.json using Guid(a5a56fa76a158a54c89af5a3ef30c0ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60684918b9ae34e66d13dd8af73ef243') in 0.011097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SpatialTracking.cpp
+  artifactKey: Guid(f53e2ad8b06125048bbb99c77870bc4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SpatialTracking.cpp using Guid(f53e2ad8b06125048bbb99c77870bc4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9dbdd570225aa2ff707334deb372fd2') in 0.008184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARSubsystems.dll
+  artifactKey: Guid(0863dad2252a3344aa490754b72ca2a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARSubsystems.dll using Guid(0863dad2252a3344aa490754b72ca2a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49ec11441bcf8e95d387c407b9e18a94') in 0.010985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll
+  artifactKey: Guid(6ef3cf01f60612f41870104d54c8af72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Xml.dll using Guid(6ef3cf01f60612f41870104d54c8af72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6947dce4180c673a2f3b9da5f78e39ca') in 0.007608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/icallsummary.txt
+  artifactKey: Guid(48d7e9bcd9bf2a74c93e904f31341f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/icallsummary.txt using Guid(48d7e9bcd9bf2a74c93e904f31341f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0caccc0235c7bb17d6991614867ec927') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp
+  artifactKey: Guid(be914b26e748a384f9f9637f5f6141e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp.cpp using Guid(be914b26e748a384f9f9637f5f6141e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d40178162f045b92cd73ebbbd14fb6a') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods1.cpp
+  artifactKey: Guid(a52d469a10ad035439f0adf1c6cc4349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods1.cpp using Guid(a52d469a10ad035439f0adf1c6cc4349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db4af2e1b939ba8ca5e2749f511aa3eb') in 0.007026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp
+  artifactKey: Guid(a43c3834e117c6747a27eb6b1487045c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp using Guid(a43c3834e117c6747a27eb6b1487045c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e9fb174b42b8aa544df4188c20dea20') in 0.007455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARCore.pdb
+  artifactKey: Guid(8f52ddb58d62f584a820d9d3c0ae9b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARCore.pdb using Guid(8f52ddb58d62f584a820d9d3c0ae9b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f75e86a50a2536b6e0e4c7d6136196a3') in 0.005492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_die.FBX
+  artifactKey: Guid(abecad1478c146b468857b08761602b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wolf_Animated/Model/Wolf_die.FBX using Guid(abecad1478c146b468857b08761602b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21fa352633bf816525aeeef8337e46b5') in 0.085064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+  artifactKey: Guid(473336dadd3e01442b0c03c85e584b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c using Guid(473336dadd3e01442b0c03c85e584b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea27a7091e7f3d7554ece022bf00d427') in 0.008587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll
+  artifactKey: Guid(6821dea8ff528cb4396c6640b52bbb44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Configuration.dll using Guid(6821dea8ff528cb4396c6640b52bbb44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a47d8b6012c1a2980a8762128b914da') in 0.007507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics5.cpp
+  artifactKey: Guid(2bc5c6a880f551642805bffd4677c148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics5.cpp using Guid(2bc5c6a880f551642805bffd4677c148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab30ae090bbae9d3ba1a71fc0eaa86e') in 0.007192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System2.cpp
+  artifactKey: Guid(5f825adb4feb64949ab04505bd29ce56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System2.cpp using Guid(5f825adb4feb64949ab04505bd29ce56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c16fd1df5b27b98ae2142f3a1f38cdb8') in 0.006529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib9.cpp
+  artifactKey: Guid(e25bd025f0582f4489d65105dff7e1ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib9.cpp using Guid(e25bd025f0582f4489d65105dff7e1ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e6c246ce7d4eb2a3ec4c27b9e4de968') in 0.008472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
+  artifactKey: Guid(b7b3f15cdac4e3045a92429f9d4593d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c using Guid(b7b3f15cdac4e3045a92429f9d4593d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5e33512c52e7dccee5f9a504d509347') in 0.007945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule.cpp
+  artifactKey: Guid(d6af0c88bb6d8344ba4201838c0902f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.PhysicsModule.cpp using Guid(d6af0c88bb6d8344ba4201838c0902f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57595305718aa6470390f5d032a4e50e') in 0.007917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARFoundation.dll
+  artifactKey: Guid(70eef10528a449a4697dbdf0e284e64a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.XR.ARFoundation.dll using Guid(70eef10528a449a4697dbdf0e284e64a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6838ceff2be8a34ae87243b1d87d0e63') in 0.051873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp
+  artifactKey: Guid(fa6d297e8d438904dbbeb11cb8df25d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/__Generated.cpp using Guid(fa6d297e8d438904dbbeb11cb8df25d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac570ce41227133ae471861ec8762019') in 0.008313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericAdjustorThunkTable.c
+  artifactKey: Guid(429259261c6fc234491ded216b24e745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericAdjustorThunkTable.c using Guid(429259261c6fc234491ded216b24e745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3292e23f2fd1c416e92050a5d20b3691') in 0.008955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp
+  artifactKey: Guid(22087073469bfb640862df2945f3fae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.InputLegacyModule.cpp using Guid(22087073469bfb640862df2945f3fae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82c476375978ca64828fbfafca7c616d') in 0.008501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
+  artifactKey: Guid(fb31ec3f9c6ae374cbc76176b8e2b0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c using Guid(fb31ec3f9c6ae374cbc76176b8e2b0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3f0b1772b1cc8860c05ddd504869279') in 0.022156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml_CodeGen.c
+  artifactKey: Guid(51137d322c5999d49a7dfb205e25b7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/System.Xml_CodeGen.c using Guid(51137d322c5999d49a7dfb205e25b7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cd8e2267cfa8fb5f60a7d0c76d7bd3c') in 0.008535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics8.cpp
+  artifactKey: Guid(e41e1fe27364a164c9ec9dcb0094254a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics8.cpp using Guid(e41e1fe27364a164c9ec9dcb0094254a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36c362d2148fd143a56f0b8378c590fc') in 0.007941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodPointerTable.c
+  artifactKey: Guid(5e8290ec5768fcd49bcac998ed74fee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericMethodPointerTable.c using Guid(5e8290ec5768fcd49bcac998ed74fee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1c32cd10688b2e15316a3b22982f9c2') in 0.013906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule.cpp
+  artifactKey: Guid(6be1564a45221cc429892217e52e8a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.XRModule.cpp using Guid(6be1564a45221cc429892217e52e8a33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8c61c1879be6ad8fac899e80ef67b00') in 0.008768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+  artifactKey: Guid(65e13d442f8e3f64eac6bfca823d439c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AudioModule_CodeGen.c using Guid(65e13d442f8e3f64eac6bfca823d439c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b8192342f7301829a228e18fdccad06') in 0.010286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib8.cpp
+  artifactKey: Guid(04a57f02fbb1c78459673b4dc35455b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib8.cpp using Guid(04a57f02fbb1c78459673b4dc35455b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd196a6e43aa1f033345acd25352ea5c6') in 0.007517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods3.cpp
+  artifactKey: Guid(79dd7e0cf6ce04f408e452366ace7e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/GenericMethods3.cpp using Guid(79dd7e0cf6ce04f408e452366ace7e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49fd0c803ee9f4ca11a9a2e4479d1a34') in 0.008686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wolf_Animated/Textures/Wolf_Albedo.tga
+  artifactKey: Guid(d12fd8c3cf4f40e41b3490596fd33b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wolf_Animated/Textures/Wolf_Albedo.tga using Guid(d12fd8c3cf4f40e41b3490596fd33b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd00f370bcef5f7cec90b01289b79873d') in 0.061786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARSubsystems1.cpp
+  artifactKey: Guid(f690bf9b19e68e642baf3569f64f41ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARSubsystems1.cpp using Guid(f690bf9b19e68e642baf3569f64f41ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96e410c0ee1c4e6942acfee982603c14') in 0.007817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+  artifactKey: Guid(54dcce73f29cdc14fb0e85010dcb96a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCFieldValuesTable.cpp using Guid(54dcce73f29cdc14fb0e85010dcb96a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '816af6ef5349ea4b7b4f469157ffae3e') in 0.008134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp
+  artifactKey: Guid(7935ecdd299df1646bb82205a4033875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppInteropDataTable.cpp using Guid(7935ecdd299df1646bb82205a4033875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea59be49b9a9411a249778f331225829') in 0.008813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wolf_Animated/Material/Wolf.mat
+  artifactKey: Guid(c19ce37bb54b73e45890d692ff1cd854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wolf_Animated/Material/Wolf.mat using Guid(c19ce37bb54b73e45890d692ff1cd854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '500da001e47897f91d80a8ee1216883a') in 0.028966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule.cpp
+  artifactKey: Guid(6aba9ddef6f6b8241ae846c8e2adc887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.AnimationModule.cpp using Guid(6aba9ddef6f6b8241ae846c8e2adc887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd302ac47749a78c387925bb8818f3a44') in 0.007779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wolf_Animated/Model/Wolf_Digs.FBX
+  artifactKey: Guid(1f61730c0e4475e4bb79f1ee06923b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wolf_Animated/Model/Wolf_Digs.FBX using Guid(1f61730c0e4475e4bb79f1ee06923b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fcda2aa5d2bfdf39cc905deee773c76') in 0.068463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule.cpp
+  artifactKey: Guid(fb775eb168aae5f48af07c39b5df27bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/UnityEngine.SubsystemsModule.cpp using Guid(fb775eb168aae5f48af07c39b5df27bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f1c9df8ae89b5929b3ef9d7f556e8d9') in 0.008045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib13.cpp
+  artifactKey: Guid(027dc34330f228d48842b6627984d375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib13.cpp using Guid(027dc34330f228d48842b6627984d375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c83209614a064fd1bcca28c4f3b7d53a') in 0.007004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll
+  artifactKey: Guid(b34d898730168dc41b839c6284479b3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Mono.Security.dll using Guid(b34d898730168dc41b839c6284479b3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c88322bc0ebd05dc21e168610543cd6') in 0.008392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib14.cpp
+  artifactKey: Guid(144cb68aeb2f98a42a6089ce795dbc1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib14.cpp using Guid(144cb68aeb2f98a42a6089ce795dbc1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8ca6c0ddc8bf2d93bdae993dbc28150') in 0.007365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+  artifactKey: Guid(433a9fc912b7743449659c6358a1570e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppCCTypeValuesTable.cpp using Guid(433a9fc912b7743449659c6358a1570e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd54d0d3420867cae865568532bce6892') in 0.010374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll
+  artifactKey: Guid(e05fbbe059ccd3046a07ee5509fa1f1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/System.Core.dll using Guid(e05fbbe059ccd3046a07ee5509fa1f1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3ef0b4bc5a74e5440b896728b87c67e') in 0.008802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wolf_Animated/Scene/Wolf_sceneSettings.lighting
+  artifactKey: Guid(b0f9f621688103a4fb8bb14f3f912a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wolf_Animated/Scene/Wolf_sceneSettings.lighting using Guid(b0f9f621688103a4fb8bb14f3f912a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2bd025c897cc9de64c0382700bbb6e6') in 0.052645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XR/Settings/AR Core Settings.asset
+  artifactKey: Guid(a34b77913819c8e48b9458e86b95a380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/AR Core Settings.asset using Guid(a34b77913819c8e48b9458e86b95a380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a70c1db65f1fd6edc208f961b2ce94f5') in 0.012292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp
+  artifactKey: Guid(da8e0ddf112e5c74d8ef43a582d6bc4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Generics.cpp using Guid(da8e0ddf112e5c74d8ef43a582d6bc4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b467a61351b43fbf537975477a981966') in 0.008202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib15.cpp
+  artifactKey: Guid(09c0ab830482731408679ec2cb088b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/mscorlib15.cpp using Guid(09c0ab830482731408679ec2cb088b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd55a79e46983b8a9145469aee1b917f') in 0.008988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.Management_CodeGen.c
+  artifactKey: Guid(ec3e01a309ffac64c92e52682ab1f831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.Management_CodeGen.c using Guid(ec3e01a309ffac64c92e52682ab1f831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6655350d2210f2712c67d2030c3616a8') in 0.011436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppTypeDefinitions.c
+  artifactKey: Guid(794364ebdd208f34fa57e61aa9dc7d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppTypeDefinitions.c using Guid(794364ebdd208f34fa57e61aa9dc7d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2df66ee39f06d55dd3cba5d372adf363') in 0.007739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARSubsystems.cpp
+  artifactKey: Guid(d25477b00a99d7f4699dc424ac1cf9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Unity.XR.ARSubsystems.cpp using Guid(d25477b00a99d7f4699dc424ac1cf9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e448a32c2332e9c6d90ead1a357ef1be') in 0.008627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.906687 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll
+  artifactKey: Guid(98b7c28eca5c08c47b95e710faaa4587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AndroidJNIModule.dll using Guid(98b7c28eca5c08c47b95e710faaa4587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bae51b8d726c5353c29ef0d4f77136e') in 0.007851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARProject/Assets/textures/Wolf_Eyes.mat
+  artifactKey: Guid(1564b4d5ed43ea94a9569e89d80961e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/textures/Wolf_Eyes.mat using Guid(1564b4d5ed43ea94a9569e89d80961e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6fb9713366ea3acc27c4a72717d7d8d') in 0.052245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/Assets/VIsual Object/Prefab/Visual.prefab
+  artifactKey: Guid(98c57c60d5f37d34cb0d009317bd15af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/VIsual Object/Prefab/Visual.prefab using Guid(98c57c60d5f37d34cb0d009317bd15af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '144f54da95121af04b78cf3b88e567a9') in 0.232505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb
+  artifactKey: Guid(e8837e82c405c4b438b3ce70d674f643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.CoreModule.pdb using Guid(e8837e82c405c4b438b3ce70d674f643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae89b02dac4b43d5f50aa39f5ca55361') in 0.005941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll
+  artifactKey: Guid(8d90004092ec29d4da0d71f6b7d9fad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.dll using Guid(8d90004092ec29d4da0d71f6b7d9fad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba978d3d8fcc4b678ba0e988e2919496') in 0.008754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ARProject/Assets/textures/Wolf_Claws.mat
+  artifactKey: Guid(979fc0a47a4428a49b85b26411eba0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/textures/Wolf_Claws.mat using Guid(979fc0a47a4428a49b85b26411eba0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed96c4a3b96d9afaf1e89e1f652e68df') in 0.012911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll
+  artifactKey: Guid(69adea231768c1b4c80fb1241c63be72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.XRModule.dll using Guid(69adea231768c1b4c80fb1241c63be72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '817dce935238ab17197bfe8d6ac6fdd2') in 0.008657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ARProject/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+  artifactKey: Guid(04cdde870d8a6ce4aaab4b75a8df82eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache using Guid(04cdde870d8a6ce4aaab4b75a8df82eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b774c28af1863a2e508badab298b938') in 0.007211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ARProject/Assets/VIsual Object/Sprites/asset-8.png
+  artifactKey: Guid(aadbbb6b14e655244929970a55a8ed44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/VIsual Object/Sprites/asset-8.png using Guid(aadbbb6b14e655244929970a55a8ed44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f2cfa6b6ae9f1e3dd107bac6b104de9') in 0.029493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb
+  artifactKey: Guid(0aca51fc721a06345b5a4e5975caf110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/ArPRoject_BackUpThisFolder_ButDontShipItWithYourGame/Managed/UnityEngine.AnimationModule.pdb using Guid(0aca51fc721a06345b5a4e5975caf110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdbcbd4017c98cf182488d1440973e1d') in 0.006064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ARProject/Assets/VIsual Object/Sprites/asset-9_2.png
+  artifactKey: Guid(9477c4586b8a12c4cb01a96e8e0f51eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/VIsual Object/Sprites/asset-9_2.png using Guid(9477c4586b8a12c4cb01a96e8e0f51eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59820f4a23090ac6be45cb2d3de5bd8d') in 0.018101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ARProject/Assets/textures/Wolf_Teeth.mat
+  artifactKey: Guid(e13b9424d9a0f504f995de316b9a1aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ARProject/Assets/textures/Wolf_Teeth.mat using Guid(e13b9424d9a0f504f995de316b9a1aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6465cd5379ab8d6a41ec5b6c0f547fe0') in 0.019596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wolf_Animated/Model/Materials/Wolf_Albedo1.mat
+  artifactKey: Guid(e3c3dcf3633222f478c7ebfc5d644ab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wolf_Animated/Model/Materials/Wolf_Albedo1.mat using Guid(e3c3dcf3633222f478c7ebfc5d644ab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2b8e5d07cc9b86b5d65cd6d4ea02d47') in 0.045651 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 294 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 294 unused Assets / (105.6 KB). Loaded Objects now: 4314.
+Memory consumption went from 62.6 MB to 62.5 MB.
+Total: 3.313300 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.289700 ms MarkObjects: 2.594500 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

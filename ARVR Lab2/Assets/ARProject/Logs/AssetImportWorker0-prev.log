@@ -1,0 +1,236 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'ru' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/ARProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63457
+Successfully changed project path to: D:/UnityProject/ARProject
+D:/UnityProject/ARProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 88.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/ARProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   30.0.14.7284
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005652 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 89.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ARProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\ARProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1185ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.40 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (127.8 KB). Loaded Objects now: 4191.
+Memory consumption went from 126.5 MB to 126.3 MB.
+Total: 3.245000 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.250300 ms MarkObjects: 2.543800 ms  DeleteObjects: 0.120900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1047.572013 seconds.
+  path: Assets/Wolf.fbx
+  artifactKey: Guid(926d28eed53098b44a5a3330c8b2073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf.fbx using Guid(926d28eed53098b44a5a3330c8b2073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f319ffb9b959614579784ba9c3c427') in 0.657977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.944040 seconds.
+  path: Assets/Wolf.fbx
+  artifactKey: Guid(926d28eed53098b44a5a3330c8b2073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wolf.fbx using Guid(926d28eed53098b44a5a3330c8b2073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71133202d24ae02d64a8c27dc07b9c27') in 0.180572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.221898 seconds.
+  path: Assets/textures
+  artifactKey: Guid(e0b9f3bbf0104ce4381a0aefd41934fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures using Guid(e0b9f3bbf0104ce4381a0aefd41934fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b219607553251ff57addc32d198c9128') in 0.024592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034612 seconds.
+  path: Assets/textures/Wolf_Body.jpg
+  artifactKey: Guid(211cf852786d64c4e800a6080e9af8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Body.jpg using Guid(211cf852786d64c4e800a6080e9af8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bad4d830152b93acd7fcbc4b7db08c') in 0.034268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/textures/Wolf_Fur.jpg
+  artifactKey: Guid(1d94f0a85d6c50c47a1261fe0d2c1021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Fur.jpg using Guid(1d94f0a85d6c50c47a1261fe0d2c1021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb9e059391e92ce02d421397bf33af5') in 0.014068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/textures/Wolf_Teeth.mat
+  artifactKey: Guid(e13b9424d9a0f504f995de316b9a1aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Teeth.mat using Guid(e13b9424d9a0f504f995de316b9a1aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bf1ec553a208ce9e02565c8d8b3dde') in 0.033146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/textures/Wolf_Fur.mat
+  artifactKey: Guid(9cf3122bde6efc145a597a0b5a03955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Fur.mat using Guid(9cf3122bde6efc145a597a0b5a03955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a68b4dfe30cdd99996f4cdd9d3cd33') in 0.013100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/textures/Wolf_Eyes_2.jpg
+  artifactKey: Guid(bcd64fa0b77a27242a52189724e11753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Eyes_2.jpg using Guid(bcd64fa0b77a27242a52189724e11753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7f754910e50178cf76b75838cc6259') in 0.015756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/textures/Wolf_Eyes.mat
+  artifactKey: Guid(1564b4d5ed43ea94a9569e89d80961e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Eyes.mat using Guid(1564b4d5ed43ea94a9569e89d80961e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a912df2063eca2ec393371ed11f79a25') in 0.020419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/textures/Wolf_Claws.mat
+  artifactKey: Guid(979fc0a47a4428a49b85b26411eba0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Claws.mat using Guid(979fc0a47a4428a49b85b26411eba0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e3163b3530cbc7bb855544c6784048') in 0.013154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/textures/Wolf_Eyes_1.jpg
+  artifactKey: Guid(53f0ad7f2f70b574580fcc54285567e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Wolf_Eyes_1.jpg using Guid(53f0ad7f2f70b574580fcc54285567e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8de8fad8f8f79617c32c1ce00ab76e') in 0.014369 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
